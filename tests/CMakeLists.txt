@@ -2,6 +2,7 @@ enable_testing()
 
 add_executable(uutils_tests
     test_data_processing.cpp
+    test_static_vector.cpp
 )
 
 target_link_libraries(uutils_tests
